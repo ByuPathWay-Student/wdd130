@@ -1,0 +1,141 @@
+:root {
+    --primary-color: #e2c59f;
+    --secondary-color: #4966c5;
+    --accent1-color: #2c2c2c;
+    --accent2--color: #eee;
+    --heading-font: sans-serif;
+    --body-font: Arial;
+
+header {
+    background-color: var(--primary-color);
+    color: var(--accent1-color);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: var(--body-font);
+    color: var(--accent1-color);
+}
+
+header, main, footer{
+    width: 840px;
+    margin: 0 auto;
+}
+
+h1, h2 {
+    font-family: var(--heading-font);
+    color: var(--secondary-color);
+    background-color: var(--primary-color);
+    padding: 10px;
+    text-align: center;
+    box-shadow: 0 0 30px gray;
+}
+
+nav, p, section, article {
+    margin: 16px;
+    padding: 8px;
+}
+
+.socialmedia a {
+    text-decoration: none;
+}
+
+.hero {
+    position: relative;
+}
+
+.hero img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+h1 {
+    position: absolute;
+    top: 20px;
+    width: 100%;
+    padding: 16px;
+    opacity: 0.7;
+    text-align: center;
+    background-color: var(--accent1-color);
+    color: #fff;
+}
+
+article {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    padding: 10px;
+    box-shadow: 0 0 30px #000;
+    text-align: center;
+    background-color: var(--secondary-color);
+    color: var(--accent2--color);
+}
+
+.hero article img {
+    float: right;
+    width: 125px;
+}
+/* }
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: var(--body-font);
+    color: var(--accent1-color);
+}
+
+header, main, footer {
+    width: 840px;
+    margin: 0 auto;
+}
+
+h1, h2 {
+    font-family: var(--heading-font);
+    color: var(--pirmary-color);
+}
+
+nav, p, section, article {
+    margin: 16px;
+    padding: 8px;
+}
+
+.socialmedia a {
+    text-decoration: none;
+}
+
+.hero {
+    position: relative;
+}
+
+.hero img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+h1{
+    position: absolute;
+    top: 20px;
+    width: 100%;
+    padding: 16px;
+    text-align: center;
+    opacity: 0.7;
+    background-color: var(--accent1-color);
+    color: #fff;
+}
+
+.hero article img {
+    float: right;
+    width: 125px;
+    margin: 10px
+} */
