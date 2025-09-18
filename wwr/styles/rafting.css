@@ -5,7 +5,7 @@
     --accent2--color: #eee;
     --heading-font: sans-serif;
     --body-font: Arial;
-
+}
 header {
     background-color: var(--primary-color);
     color: var(--accent1-color);
