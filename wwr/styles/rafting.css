@@ -1,15 +1,12 @@
 :root {
-    --primary-color: #e2c59f;
-    --secondary-color: #4966c5;
+    --primary-color: #fce7cc;
+    --secondary-color: #364a8b;
     --accent1-color: #2c2c2c;
     --accent2--color: #eee;
     --heading-font: sans-serif;
     --body-font: Arial;
 }
-header {
-    background-color: var(--primary-color);
-    color: var(--accent1-color);
-}
+
 
 * {
     margin: 0;
@@ -25,6 +22,64 @@ body {
 header, main, footer{
     width: 840px;
     margin: 0 auto;
+}
+
+header {
+    background-color: var(--primary-color);
+    color: var(--accent1-color);
+    display: grid;
+    grid-template-columns: 120px 1fr 1fr;
+    align-items: center;
+    padding: 2rem;
+}
+
+nav {
+    grid-column: 3/4;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+}
+
+nav ul li {
+    flex: 1 1 auto;
+}
+
+.section-history {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 1rem;
+    align-items: center;
+}
+
+.section-history img {
+    width: 225px;
+    height: auto;
+}
+
+.figure-images {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    text-align: center;
+
+
+}
+
+.figure-images img {
+    width: 125px;
+    height: auto;
+}
+
+.footer-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: end;
+    text-align: center;
+    align-items: center;
 }
 
 h1, h2 {
