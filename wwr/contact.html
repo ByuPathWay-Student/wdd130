@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>White Water Rafting - Contact</title>
+    <meta name="description"
+        content="A white water rafting company's contact page, where users can contact the company.">
+    <meta name="author" content="Adeline Scott">
+    <link rel="stylesheet" href="styles/rafting.css">
+</head>
+
+<body>
+    <header>
+        <img src="images/rafting-logo.jpg" alt="White Water Rafting Logo." width="125">
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="trips.html">Trips</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+        </nav>
+
+    </header>
+
+    <main>
+
+        <div class="company-info">
+            <h1>Rapids White Water Rafting</h1>
+            <p>123 NE Webster Ave</p>
+            <p>Bend, Oregon</p>
+            <p>+1 123-456-7890</p>
+            <p>rapidswhitewaterrafting@email.com</p>
+        </div>
+        <div class="container">
+            <div class="map">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d25015.637781635396!2d-121.32013291908537!3d44.053820021269644!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sus!4v1759458211042!5m2!1sen!2sus"
+                    width="400" height="400" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+            <form>
+
+                <div class="form-item">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="name" placeholder="Full Name">
+                </div>
+
+                <div class="form-item">
+                    <label for="email">Email</label>
+                    <input type="text" id="email" name="email" placeholder="someone@example.com">
+                </div>
+
+                <div class="form-radio">
+                    <p>Message Purpose</p>
+
+                    <div class="radio-group-container">
+                        <div class="radio-group">
+                            <input type="radio" id="general" name="purpose">
+                            <label for="general">General Inquiry</label>
+                        </div>
+
+                        <div class="radio-group">
+                            <input type="radio" id="reservation" name="purpose">
+                            <label for="reservation">Reservation Question</label>
+                        </div>
+
+                        <div class="radio-group">
+                            <input type="radio" id="suggestion" name="purpose">
+                            <label for="suggestion">Website Suggestion</label>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="form-item">
+                    <label for="message">Message</label>
+                    <textarea name="message" id="message" placeholder="Type Here"></textarea>
+                </div>
+
+                <div class="form-checkbox">
+                    <input type="checkbox" id="subscribe" name="subscribe">
+                    <label for="subscribe">Please subscribe me to the monthly newsletter</label>
+                </div>
+            </form>
+            <button type="submit">Submit Message</button>
+        </div>
+
+        <section>
+            <h2>We Are Here to Serve You</h2>
+            <div class="employees">
+                <figure>
+                    <img src="images/employee-one.jpg" alt="An image of an employee looking focused.">
+                    <figcaption>Tour Guide</figcaption>
+                </figure>
+                <figure>
+                    <img src="images/employee-two.jpg" alt="An image of an employee looking happy.">
+                    <figcaption>Receptionist</figcaption>
+                </figure>
+                <figure>
+                    <img src="images/employee-three.jpg" alt="An image of an employee instructing people.">
+                    <figcaption>Rafting Teacher</figcaption>
+                </figure>
+            </div>
+        </section>
+
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <p>©2025 💧 Rapids White Water Rafting 💧 Adeline Scott</p>
+            <nav class="socialmedia">
+                <a href="https://facebook.com">
+                    <img src="images/facebook-icon.svg" alt="Facebook Icon" width="50">
+                </a>
+                <a href="https://linkedin.com">
+                    <img src="images/linkedin-icon.svg" alt="LinkedIn Icon" width="50">
+                </a>
+                <a href="https://instagram.com">
+                    <img src="images/instagram-icon.svg" alt="Instagram Icon" width="50">
+                </a>
+            </nav>
+        </div>
+
+    </footer>
+
+</body>
+
+</html>

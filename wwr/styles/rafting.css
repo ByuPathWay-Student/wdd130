@@ -82,7 +82,7 @@ nav ul li {
     align-items: center;
 }
 
-h1, h2 {
+section h1, h2 {
     font-family: var(--heading-font);
     color: var(--secondary-color);
     background-color: var(--primary-color);
@@ -110,7 +110,7 @@ nav, p, section, article {
     height: auto;
 }
 
-h1 {
+.hero h1 {
     position: absolute;
     top: 20px;
     width: 100%;
@@ -135,4 +135,83 @@ article {
 .hero article img {
     float: right;
     width: 125px;
+}
+
+.company-info {
+    text-align: center;
+    margin: .5rem;
+    padding: .5rem;
+}
+
+.company-info h1 {
+    color: var(--secondary-color);
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 1rem;
+}
+
+.map {
+    margin-left: 1rem;
+}
+.form-item, .form-checkbox {
+    display: block;
+    margin: .8rem;
+    padding: .5rem;
+}
+
+.form-item input {
+    padding: .3rem;
+    width: 350px;
+}
+
+.form-radio {
+    display: flex;
+    align-items: center;
+}
+
+.radio-group-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.radio-group {
+    padding: .2rem;
+}
+
+button {
+    width: 350px;
+    grid-column: 2/3;
+    padding: .5rem;
+    margin-left: 1.2rem;
+    background-color: var(--secondary-color);
+    color: var(--accent2--color);
+    border-radius: .3rem;
+}
+
+textarea {
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+    height: 70px;
+}
+
+input [type="text"] {
+    width: 400px;
+}
+
+section .employees img {
+    width: 125px;
+    height: auto;
+}
+
+.employees {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem;
+    text-align: center;
 }
