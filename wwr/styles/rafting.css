@@ -121,7 +121,7 @@ nav, p, section, article {
     color: #fff;
 }
 
-article {
+.hero article {
     position: absolute;
     bottom: 20px;
     right: 20px;
@@ -215,3 +215,215 @@ section .employees img {
     padding: 1rem;
     text-align: center;
 }
+
+.hero-home {
+    position: relative;
+}
+
+.hero-home img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.hero-home h1 {
+    position: absolute;
+    top: 0px;
+    width: 100%;
+    padding: 70px;
+    text-align: center;
+    color: var(--primary-color);
+    background-color: var(--accent1-color);
+    opacity: 0.7;
+}
+
+.hero-home article li {
+    position: absolute;
+    right: 130px;
+    top: 120px;
+    padding: 7px;
+    text-align: center;
+    background-color: var(--accent2--color);
+    border-radius: .3rem;
+    list-style: none;
+}
+
+.hero-home article li a {
+    color: var(--secondary-color);
+    font-weight: bold;
+}
+
+.hero-home article p {
+    position: absolute;
+    width: 100%;
+    top: 110px;
+    left: 120px;
+    color: var(--accent2--color);
+}
+
+.sign-up-section {
+    background-color: var(--accent2--color);
+    padding: 15px;
+}
+
+.newsletter-form {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.sign-up-section img {
+    width: 300px;
+    height: auto;
+    margin-top: 12px;
+    margin-left: 25px;
+}
+
+.offering-section {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 1rem;
+    align-items: center;
+    margin-top: 2rem;
+}
+
+.home-image img {
+    width: 200px;
+    height: auto;
+}
+
+.home-image figure {
+    text-align: center;
+    color: var(--secondary-color);
+}
+
+.home-paragraph {
+    text-align: center;
+    color: var(--accent1-color);
+}
+
+.trip-header {
+    text-align: center;
+    padding: 2rem;
+    background-color: var(--accent1-color);
+    color: var(--primary-color);
+}
+
+.trip-header p {
+    color: var(--accent2--color);
+}
+
+.trip-description {
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-gap: 2rem;
+}
+
+.trip-description img {
+    width: 250px;
+    height: auto;
+}
+
+.easy-image {
+    display: grid;
+    grid-template-columns: 250px 1fr;
+    align-content: center;
+    align-items: center;
+    background-color: var(--accent2--color);
+    padding: 2rem;
+    margin: 1rem;
+    box-shadow: 0 0 30px #000;
+    border-radius: .5rem;
+}
+
+.intermediate-image {
+    display: grid;
+    grid-template-columns: 1fr 250px;
+    align-items: center;
+    align-content: center;
+    justify-items: right;
+    text-align: right;
+    background-color: var(--primary-color);
+    padding: 2rem;
+    margin: 1rem;
+    box-shadow: 0 0 30px #000;
+    border-radius: .5rem;
+}
+
+.intermediate-image img {
+    grid-area: 1/2;
+}
+
+.hard-image {
+    display: grid;
+    grid-template-columns: 250px 1fr;
+    align-content: center;
+    align-items: center;
+    background-color: var(--secondary-color);
+    padding: 2rem;
+    margin: 1rem;
+    color: var(--accent2--color);
+    box-shadow: 0 0 30px #000;
+    border-radius: .5rem;
+}
+
+table {
+    border-collapse: collapse;
+    border: 2px solid var(--accent1-color);
+    letter-spacing: 1px;
+    font-size: 1rem;
+    margin-top: 2rem;
+}
+
+table caption {
+    padding: 1rem;
+    font-weight: bold;
+}
+
+thead, tfoot {
+    background-color: var(--accent1-color);
+    color: var(--accent2--color);
+}
+
+th, td {
+    border: 2px solid #8a8a8a;
+    padding: 10px;
+}
+
+td {
+    background-color: var(--accent2--color);
+}
+
+.link-section {
+    display: grid;
+    grid-template-rows: 1fr;
+    justify-content: center;
+    background-color: var(--accent2--color);
+    padding: 1rem;
+}
+
+.link-section img {
+    width: 380px;
+    height: auto;
+    margin-bottom: 2rem;
+}
+
+.question-link li a {
+    color: var(--accent2--color);
+}
+
+.question-link li {
+    list-style: none;
+    background-color: var(--secondary-color);
+    padding: 12px;
+    border-radius: .5rem;
+    border: 1px solid var(--accent1-color);
+}
+
+.question-link {
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+    padding: 12px;
+}
+
+
